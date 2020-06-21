@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Deji">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/sandbox.css">
+    <link rel="shortcut icon" href="img/Dog_v1.3_256.png">
+
+    <title>Deji's Web Page</title>
+
+    <script src="js/sandbox.js"></script>
+
+    <style>
+        #canvas {
+            background: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <ul>
+            <li>Deji's Web Page 🐕</li>
+            <li><a href="index.html" class="header_go">English</a></li>
+            <li><a href="index_jp.html" class="header_go">日本語</a></li>
+            <li><a href="sandbox.html" class="header_now">Sandbox</a></li>
+        </ul>
+    </header>
+
+    <h1>ネタ</h1>
+
+    <h2>Java風</h2>
+    <div class="JavaLike">
+        <div class="JavaLike_Text">
+            あなたとDeji,<br />
+            今すぐインストー<br />
+            ル
+        </div>
+        <br />
+        <input type="button" value="無料Dejiのインストール" class="JavaLike_Button" />
+    </div>
+
+    <h2>なんかキャンバスで遊ぶ</h2>
+    <div>
+        <canvas id="canvas" width="640" height="480"></canvas>
+        <script>
+            var canvas = document.getElementById("canvas");
+            canvas.addEventListener('mousemove', onMove, false);
+        </script>
+    </div>
+</body>
+
+</html>

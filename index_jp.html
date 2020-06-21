@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Deji">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/Dog_v1.3_256.png">
+
+    <title>Deji's Web Page</title>
+
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <ul>
+            <li>Deji's Web Page 🐕</li>
+            <li><a href="index.html" class="header_go">English</a></li>
+            <li><a href="index_jp.html" class="header_now">日本語</a></li>
+            <li><a href="sandbox.html" class="header_go">Sandbox</a></li>
+        </ul>
+    </header>
+
+    <div class="command">
+        <p>Microsoft Windows [Version 10.0.0.0]</p>
+        <p>(c) 2525 Microsoft Corporation. All rights reserved.</p>
+        <p>C:\Users\User>Downloads\Deji.exe</p>
+        <p>Is he a Dog? [Y/N]</p>
+        <img src="img/Dog_v1.3_256.png" onmouseover="src='img/Dog_v1.3_eye_256.png'"
+            onmouseout="src='img/Dog_v1.3_256.png'">
+
+        <div id="command_button">
+            <p>> ?</p>
+            <input type="button" value="Y" style="color:#ffffff;background-color:#000000;" onclick="command_yes()" />
+            <input type="button" value="N" style="color:#ffffff;background-color:#000000;" onclick="command_no()" />
+            <br />
+            <br />
+        </div>
+
+        <div id="command_yes" style="display: none;">
+            <p>> Y</p>
+            <p>The Flag is flag{he_1s_a_d0g}.</p>
+            <p>C:\Users\User></p>
+        </div>
+
+        <div id="command_no" style="display: none;">
+            <p>> N</p>
+            <p>Error...</p>
+            <input type="button" value="Really?" style="color:#ffffff;background-color:#000000;"
+                onclick="command_you_known()" />
+            <br />
+            <br />
+        </div>
+    </div>
+
+    <h1>My Profile</h1>
+
+    <div class="info">
+        <h2>Information</h2>
+        <ul>
+            <li>Name : 出島 幹英</li>
+            <li>School : 石川工業高等専門学校 電子情報工学科 3年</li>
+            <li>Twitter : <a href="https://twitter.com/Outing_Island">@Outing_Island</a></li>
+            <li>
+                競技プログラミング :
+                <ul>
+                    <li>AtCoder :
+                        <a href="https://atcoder.jp/users/Deji">Deji</a>
+                        ( Highest Rating = 1202 , Color = 水色 )
+                    </li>
+                    <li>PAST : Grade = 中級 , Score = 76</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="ables">
+        <h2>Programing Languages and Tools</h2>
+        <ul>
+            <li> C </li>
+            <li> C++ </li>
+            <li> C# </li>
+            <li> F# </li>
+            <li> Python </li>
+            <li> JavaScript </li>
+            <li> Git </li>
+            <li> GitHub </li>
+            <li> Visual Studio </li>
+            <li> Visual Studio Code </li>
+        </ul>
+    </div>
+
+    <div class="products">
+        <h2>Products</h2>
+        <div class="product">
+            <h3>Hex Calcurator - 新人類のための16進数電卓</h3><br />
+            <a href="https://hexcalcurator.azurewebsites.net">https://hexcalcurator.azurewebsites.net</a>
+            <p>using Uno-Platform and C#</p>
+            <img src="img/HexCalcurator.png">
+        </div>
+        <div class="product">
+            <h3>Just 10 Game v1.1</h3><br />
+            <a href="https://scrapbox.io/hitsujirere-projects/%E3%82%86%E3%81%A7%E3%81%9F%E3%81%BE%E3%81%94%EF%BC%92">https://scrapbox.io/hitsujirere-projects/ゆでたまご２
+            </a>
+            <p>using C++ and C++ Library Open-Siv-3D</p>
+
+            <blockquote class="twitter-tweet">
+                <p lang="ja" dir="ltr">Just10Game Ver 1.0.0です！！！<a
+                        href="https://twitter.com/hashtag/Just10Game?src=hash&amp;ref_src=twsrc%5Etfw">#Just10Game</a><a
+                        href="https://twitter.com/hashtag/OpenSiv3D?src=hash&amp;ref_src=twsrc%5Etfw">#OpenSiv3D</a>
+                    <a href="https://t.co/AnHVxYuKbB">pic.twitter.com/AnHVxYuKbB</a></p>&mdash; れれ (@HitsujiRere) <a
+                    href="https://twitter.com/HitsujiRere/status/1243791294679240711?ref_src=twsrc%5Etfw">March 28,
+                    2020</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mSAGdvujaFc" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="product">
+            <h3>Yudetamago 2 - ボス！空から生卵が！</h3><br />
+            <a
+                href="https://scrapbox.io/hitsujirere-projects/Just10Game">https://scrapbox.io/hitsujirere-projects/Just10Game</a>
+            <p>using Processing 3</p>
+            <img src="img/namatamago2.png">
+        </div>
+    </div>
+</body>
+
+</html>

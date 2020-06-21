@@ -1,0 +1,94 @@
+h1 {
+    color: #6594e0;
+    padding: 0.5em 0;
+    border-top: solid 3px #6594e0;
+    border-bottom: solid 3px #6594e0;
+}
+
+h2 {
+    color: #364e96;
+    border-bottom: dashed 2px #364e96;
+}
+
+.command {
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-family: 'MS Gothic';
+    margin: 10px 5px 10px 5px;
+}
+
+.command p:hover {
+    color: red;
+}
+
+.command img {
+    width: 256px;
+}
+
+.info ul {
+    padding: 0;
+}
+
+.info ul li, ol li {
+    display: inline-block;
+    color: #404040;
+    border-top: solid 1px #404040;
+    border-left: solid 6px #1fa67a;
+    border-bottom: solid 3px #dadada;
+    border-radius: 0 15px 15px 0;
+    background: whitesmoke;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    padding: 0.5em;
+    list-style-type: none!important;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.ables ul li {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #1d8ace;
+    border: double 4px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+    background: #f2fcff;
+    margin: 5px;
+}
+
+.product {
+    margin: 20px 20px 20px 20px;
+    border: double 5px #668ad8;/*二重線 太さ 色*/
+    background: #f1f8ff; 
+    padding: 0em 1em 0.5em 1em;
+}
+
+.product img{
+    width: 500px;
+}
+
+.product h3 {
+    color: #668ad8; 
+    position: relative;
+    display: inline-block;
+    padding: 0 55px;
+}
+
+.product h3:before, h3:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: black;
+}
+
+.product h3:before {
+    left:0;
+}
+.product h3:after {
+    right: 0;
+}
